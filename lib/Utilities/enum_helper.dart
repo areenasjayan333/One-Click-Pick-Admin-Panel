@@ -1,0 +1,4 @@
+enum ProviderResponse {
+  success,
+  error,
+}
