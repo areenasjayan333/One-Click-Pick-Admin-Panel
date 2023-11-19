@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_admin_scaffold/admin_scaffold.dart';
 import 'package:shopping_admin/screen/banner_screen.dart';
@@ -66,7 +65,7 @@ class _MainScreenState extends State<MainScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final orientation = MediaQuery.of(context).orientation;
+    // final orientation = MediaQuery.of(context).orientation;
     return AdminScaffold(
         body: AdminScaffold(
             backgroundColor: Color(0xff242c4b),
